@@ -27,7 +27,7 @@ def scrape():
     browser.visit(img_url)
 
     browser.click_link_by_partial_text('FULL IMAGE')
-    time.sleep(5)
+    time.sleep(3)
     browser.click_link_by_partial_text('more info')
 
     img_html = browser.html
